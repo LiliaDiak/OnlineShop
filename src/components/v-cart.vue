@@ -1,13 +1,15 @@
 <template>
     <div class="v-cart">
-
+        <p>Cart</p>
+<v-cart-item/>
     </div>
 </template>
 
 <script>
+import VCartItem from './v-cart-item.vue';
 export default{
     name: "v-cart",
-    components:{ },
+    components:{ VCartItem },
     props:{},
     data(){return{
 
