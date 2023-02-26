@@ -3,10 +3,10 @@
 //   transpileDependencies: true
 // })
 
-export const css = {
-  loaderOptions: {
-    sass: {
-      prependData: `@import "@assets/styles/styles.scss";`
-    }
-  }
-};
+// export const css = {
+//   loaderOptions: {
+//     sass: {
+//       prependData: `@import "@assets/styles/styles.scss";`
+//     }
+//   }
+// };
